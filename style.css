@@ -85,6 +85,8 @@ margin-top: 0px;
 padding-top: 0px;
 opacity: 60%;
 margin-top: 0px;
+padding-right: 50px;
+padding-left: 50px;
 }
 
 .right
@@ -97,7 +99,7 @@ margin-top: 0px;
   justify-content: center; 
   padding-left: 40px;
   font-family: 'Hanken Grotesk';
-  box-shadow: 3px 5px 35px hsl(0, 8%, 90%);
+  box-shadow: 5px 10px 8px hsl(0, 8%, 90%);
   border: none;
   border-radius: 30px;
   border-bottom-left-radius: 0px;
@@ -262,3 +264,75 @@ button:hover
 {
   background-image: linear-gradient(rgb(120, 87, 255), rgb(46, 43, 233));
 }
+
+@media only screen and (max-width:500px)
+{
+  body 
+  {
+   align-items: flex-start;
+   
+  }
+ 
+  .container
+  {
+   
+    flex-direction: column;
+    
+  }
+  
+  .left{
+    min-width: 100vw;
+    max-height: 45vh;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    
+  }
+ 
+  .circle
+  {
+    margin: 0px 125px 0px 125px;
+    padding-top: 1px;
+    padding-bottom: 15px; 
+    
+  }
+  h1
+   {
+    font-size: 40px;
+   }
+
+  h2
+   {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 25px;
+   
+  }
+
+   .right{
+    box-shadow: none;
+    border:none;
+    border-radius:0px;
+    width: 360px;
+   
+  }
+
+  .top
+  {
+    margin-bottom: 30px;
+    font-size: 17px;
+  }
+
+  .fi{
+    padding-left: 150px;
+  }
+
+  .fi1{
+    padding-left: 160px;
+  }
+
+  }
+  button{
+    width: 320px;
+    margin-top: 0px;
+  }
+
